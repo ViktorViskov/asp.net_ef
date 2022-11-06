@@ -1,0 +1,10 @@
+Commands for generate and remove mogrations
+
+dotnet-ef migrations add migration_name
+dotnet-ef migrations remove << remove last mogration
+
+
+Command for setup migrations on db 
+
+dotnet-ef database update
+dotnet-ef database update migration_name
